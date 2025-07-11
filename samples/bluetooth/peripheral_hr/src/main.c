@@ -191,6 +191,7 @@ static void blink_stop(void)
 
 int main(void)
 {
+	k_msleep(2000);
 	int err;
 
 	err = bt_enable(NULL);
