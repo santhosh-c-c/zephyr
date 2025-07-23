@@ -1,6 +1,7 @@
 # MSPM0 SDK configuration
 
 # Copyright (c) 2025 Texas Instruments
+# Copyright (c) 2025 Linumiz GmbH
 # SPDX-License-Identifier: Apache-2.0
 
 config HAS_MSPM0_SDK
@@ -13,4 +14,7 @@ config USE_MSPM0_DL_UART
 	bool
 
 config USE_MSPM0_DL_TIMER
+	bool
+
+config USE_MSPM0_DL_DAC12
 	bool
